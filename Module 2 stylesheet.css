@@ -1,0 +1,105 @@
+body {
+	font-family: Baskerville;
+	display: inline-block;
+}
+
+h1 {
+	text-align: center;
+	margin: 30px;
+}
+
+span {
+	font-weight: bold;
+	text-align: right;
+	border: solid black 1px;
+	padding: 5px;
+	box-sizing: border-box;
+	background-color: lightgrey;
+}
+
+div {
+	font-weight: normal;
+	margin-top: 12px;
+	margin-bottom: 0px;
+}
+
+#Chicken {
+	position: relative;
+	background-color: lightpink;
+}
+
+#Beef {
+	position: relative;
+	background-color: lightblue;
+}
+
+#Sushi {
+	position: relative;
+	background-color: mediumpurple;
+}
+
+@media (max-width: 767px) {
+	#Chicken {
+		width: 90%;
+	}
+	#Beef {
+		width: 90%;
+	}
+	#Sushi {
+		width: 90%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#Chicken {
+		width: 41%;
+	}
+	#Beef {
+		width: 41%;
+	}
+	#Sushi {
+		width: 88%;
+	}
+}
+
+@media (min-width: 992px) {
+	#Chicken {
+		width: 27%;
+		position: relative;
+	}
+	#Beef {
+		width: 27%;
+		position: relative;
+	}
+	#Sushi {
+		width: 27%;
+		position: relative;
+	}
+}
+
+section {
+	border: solid black 1px;
+	margin: 20px;
+	padding: 6px 6px 6px;
+	width: 30%;
+	display: inline-block;
+
+* {
+	box-sizing: border-box;
+}
+
+.CHeader {
+	position: relative;
+	left: 83%;
+	bottom: 235px;
+}
+
+.BHeader {
+	position: relative;
+	left: 88%;
+}
+
+.SHeader {
+	position: relative;
+	left: 30%;
+}
