@@ -6,6 +6,7 @@ body {
 h1 {
 	text-align: center;
 	margin: 30px;
+	color: yellow;
 }
 
 span {
@@ -15,26 +16,27 @@ span {
 	padding: 5px;
 	box-sizing: border-box;
 	background-color: lightgrey;
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 
 div {
 	font-weight: normal;
+	text-align: right;
 	margin-top: 12px;
 	margin-bottom: 0px;
 }
 
 #Chicken {
-	position: relative;
 	background-color: lightpink;
 }
 
 #Beef {
-	position: relative;
 	background-color: lightblue;
 }
 
 #Sushi {
-	position: relative;
 	background-color: mediumpurple;
 }
 
@@ -65,22 +67,20 @@ div {
 @media (min-width: 992px) {
 	#Chicken {
 		width: 27%;
-		position: relative;
 	}
 	#Beef {
 		width: 27%;
-		position: relative;
 	}
 	#Sushi {
 		width: 27%;
-		position: relative;
 	}
 }
 
 section {
 	border: solid black 1px;
+	position: relative;
 	margin: 20px;
-	padding: 6px 6px 6px;
+	padding: 30px 10px 10px 10px;
 	width: 30%;
 	display: inline-block;
 
@@ -89,17 +89,13 @@ section {
 }
 
 .CHeader {
-	position: relative;
-	left: 83%;
-	bottom: 235px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
 }
 
 .BHeader {
-	position: relative;
-	left: 88%;
 }
 
 .SHeader {
-	position: relative;
-	left: 30%;
 }
